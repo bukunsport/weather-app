@@ -1,0 +1,73 @@
+
+/* 1. Background Color - Body */
+body{
+    background:rgb(20, 171, 222);
+
+
+}
+
+
+
+/* 2. The Header Menu Selection */
+    .header{
+        display: flex;
+        justify-content: center;
+    }
+
+    .header p{
+       text-align: center;
+       align-items: center;
+       justify-content: center;
+       font-weight: bold;
+    }
+    .header .overall:hover{
+        width: 10rem;
+        height: 4rem;
+        background-color:blue;
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 1s;
+    }
+
+
+.overall{
+
+    background-color: blue;
+    border: 1px blue solid;
+    width: 10rem;
+    height: 4rem;
+    border-radius: 50px 0px 0px 50px; 
+}
+
+.hours{
+    border: 1px blue solid;
+    width: 10rem;
+    height: 4rem;
+}
+
+.days{
+    border: 1px blue solid;
+    width: 10rem;
+    height: 4rem;
+    border-radius: 0px 50px 50px 0px; 
+}
+
+.hd:hover{
+    cursor: pointer;
+    width: 10rem;
+    height: 4rem;
+    background-color:blue;
+    color: white;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/* 3. Weather Image */
+
+    .weather_img{
+        
+       background-image: url("assets/images/weather3.png");
+        
+    }
+
+
